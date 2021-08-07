@@ -1,6 +1,10 @@
 """
 Set task: Create a Rock-Paper-Scissors game with a graphical user interface.
-Method:
+Method: 
+* The GUI has three buttons, one for Rock, Paper and Scissors each.
+* Triggering one of them initiates a new game.
+* A random value is created for the PC and compared to the selected button.
+* Two additional buttons allow the user to reset the game and play again, or quit.
 """
 
 import tkinter as tk
